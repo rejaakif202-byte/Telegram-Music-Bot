@@ -39,7 +39,7 @@ async def start_cmd(client, message):
 
     # --- 3. Final Photo & Buttons Logic ---
     # Yaha apne actual links se replace zaroor karna
-    photo_url = "YAHA_APNI_PHOTO_KA_URL_DALNA" 
+    photo_url = "https://files.catbox.moe/xqvqgk.jpg" 
     
     caption_text = f"Hello {first_name}! 👋\n\nMain ek advanced Music + Group Management bot hoon. Mujhe apne group me add karein aur mera jaadu dekhein!"
 
