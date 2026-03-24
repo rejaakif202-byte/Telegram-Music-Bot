@@ -47,16 +47,16 @@ async def start_cmd(client, message):
     buttons = InlineKeyboardMarkup(
         [
             # Row 1
-            [InlineKeyboardButton("➕ Add Me To Your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton("➕ Add Me To Your Group", url=f"https://t.me/Makima_Xprobot?startgroup=true")],
             
             # Row 2
             [
                 InlineKeyboardButton("🛠 Commands", callback_data="help_commands"),
-                InlineKeyboardButton("👨‍💻 Creator", url="https://t.me/AAPKA_USERNAME") 
+                InlineKeyboardButton("👨‍💻 Creator", url="https://t.me/REXX_DADDY") 
             ],
             
             # Row 3
-            [InlineKeyboardButton("📢 Support Channel", url="https://t.me/AAPKA_CHANNEL")] 
+            [InlineKeyboardButton("📢 Support Channel", url="https://t.me/mitsurii_supportt")] 
         ]
     )
 
